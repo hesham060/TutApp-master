@@ -4,8 +4,7 @@ import 'app/app.dart';
 
 
 void main() async {
-  // we use one for make sure any future instace ready 
-  WidgetsFlutterBinding.ensureInitialized();
+  // we use one for make sure any future instace ready #2
   // this one hold all instance we should put before start program
   await initAppModule();
   runApp(MyApp());
